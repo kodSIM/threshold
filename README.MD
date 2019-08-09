@@ -12,8 +12,8 @@ For installation use `pip`:
 
 For run script use format:
 
-    python threshold.py <path to log file> --cpu_limit <limit in percent> --memory_limit <memory limit in bytes>
+    python threshold.py <path to log file> --cpu_limit <percentile for CPU limit> --memory_limit <percentile for memory limit>
 
 or
 
-    threshold <path to log file> --cpu_limit <limit in percent> --memory_limit <memory limit in bytes>
+    threshold <path to log file> --cpu_limit <percentile for CPU limit> --memory_limit <percentile for memory limit>
